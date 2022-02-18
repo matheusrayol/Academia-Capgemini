@@ -1,12 +1,6 @@
 // Matheus Rayol Ferreira
-
-// 2. Débora se inscreveu em uma rede social para se manter em contato com seus amigos. A página de cadastro exigia o preenchimento dos campos de nome e senha, porém a senha precisa ser forte. O site considera uma senha forte quando ela satisfaz os seguintes critérios:
-// a. Possuir no mínimo 6 caracteres.
-// b. Contém no mínimo 1 dígito.
-// c. Contém no mínimo 1 letra em minúsculo.
-// d. Contém no mínimo 1 letra em maiúsculo.
-// e. Contém no mínimo 1 caractere especial. Os caracteres especiais são: !@#$%^&*()-+
-// Débora digitou uma string aleatória no campo de senha, porém ela não tem certeza se é uma senha forte. Para ajudar débora, construa um algoritmo que informe qual é o número mínimo de caracteres que devem ser adicionados para uma string qualquer ser considerada segura.
+// Academia Capgemini
+// Desafio - Questão 2
 
 function validarSenha(string) {
     // Inicialização de variáveis
@@ -16,7 +10,7 @@ function validarSenha(string) {
 
     // Verifica se a string passada como parâmetro atende ao padrão definido na expressão regular.
     switch (expressao.test(string)) {
-        // Caso a senha seja segura exibe a informação no console. Esta etapa é opcional, já que não havia necessidade de informá-la de acordo com o enunciado.
+        // Caso a senha seja segura exibe a informação no console.
         case true:
             return "A senha é segura.";
         // Caso a senha não seja segura
